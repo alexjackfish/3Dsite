@@ -1,0 +1,396 @@
+ * {
+
+margin:   0; 
+padding:  0;
+
+}
+
+
+
+
+
+body {
+
+
+min-height: 400px;
+min-width:  100%;
+
+/*background-color:  rgba(229,229,229,0.5);*/
+background-color:  F0FFFF;
+/*background-color:  f5f5f5;*/
+
+}
+
+
+
+/********************************                    MAIN-BODY-HEADER   (h)             *****************************************************/
+
+
+
+.header	{
+
+width:  100%;
+height:  100;
+
+/*background-image:  url(../4-imgbank/header.gif);*/
+background-color: 6ca6cd; 
+
+padding:         0;		
+min-width:  1000px;
+text-align:  right;
+
+-webkit-box-shadow:  0px 2px 20px 595959;
+box-shadow:          0px 2px 20px 595959;
+
+}
+
+
+
+
+
+.h-3d {
+
+margin-top:  -10;
+margin-left:  10; 
+
+float:  left;
+
+font-size:       65pt;
+font-family:  Calibri;
+color:          white;
+
+text-shadow:  0px 0px 10px rgba(255,255,255,0.7);
+
+}
+
+
+
+
+
+.h-text {
+
+margin-top:  40;
+margin-left: 10; 
+
+display:  inline-block;
+float:            left;
+
+color:          white;
+font-family:  Calibri;
+
+text-shadow:  0px 0px 6px rgba(255,255,255,0.7);
+
+}
+
+
+
+
+
+.h-line {
+
+width:    100%;
+margin-top:  5;
+background-color: #6ca6cd;
+height:  7; 
+
+}
+
+
+
+/*****************                         MAIN-BODY-GALLERY           (b)           ********************/
+
+
+
+.b-gal {
+
+position:  relative;
+top:             25;
+padding:          0;
+
+display:  inline-block;
+
+}
+
+
+
+
+
+.b-img {
+
+width:   300;
+height:  170;
+margin:   20;
+	
+float:  left;
+	
+border:  5px solid #6ca6cd;
+border-radius: 4px;
+
+box-shadow:         0px 4px 10px 595959;
+-webkit-box-shadow: 0px 4px 10px 595959;
+
+-webkit-transition: margin 0.1s ease-out;
+-moz-transition:    margin 0.1s ease-out;
+-o-transition:      margin 0.1s ease-out;
+
+}
+
+
+
+
+
+.b-img:hover {   
+
+margin-top:  2px;
+
+}
+
+
+
+
+
+.b-text {
+
+width:    600;
+height:   200;
+margin:  auto;
+top:       50;
+
+position:  relative;
+
+font-family:  Calibri;
+color: dimgrey;
+
+}
+
+
+
+.l-text {
+
+
+font-family:  Calibri;
+
+}
+
+
+
+/************************                      MENU  (m)                       *************************************************/
+
+
+
+.menu {
+
+margin-left: 10;
+
+}
+
+
+
+
+
+li {
+
+height:       20;
+margin-top:   10;
+margin-left:  10;
+padding:       0;
+
+display:  inline-block;
+
+list-style:  none;
+
+}
+
+
+
+
+
+.m-item {
+
+font-size:         20;
+font-family:  Calibri;
+color:           gray;
+
+}
+
+
+
+
+
+a {
+
+text-decoration:  none;
+
+}
+
+
+
+
+
+a:hover p.m-item {
+
+text-shadow:  0px 5px 10px white;
+color:                    d1d1d1;
+
+}
+
+
+
+/***********************                  FOOTER                                *********************************************************/
+
+
+
+.footer {
+
+width:   100%;
+height:  50px;
+bottom:     0;
+
+position: fixed;
+
+background-color: 6ca6cd;
+
+font-family:  Calibri;
+font-size:         15;
+color:           white;
+
+-webkit-box-shadow:  0px 4px 15px 595959;
+box-shadow:          0px 4px 15px 595959;
+text-align: center;
+
+}
+
+.footer p {
+
+/*top:10px;*/
+
+position:  relative;
+
+}
+
+
+
+/********************************************************************************************************/
+
+
+
+.map {
+
+height: 480; 
+width:  640;
+top:     25;
+
+position:  relative;
+
+border:  3px solid #ccc;
+}
+
+
+
+/***********************                   GALLERY-BODY-GALLERY (g)        ********************************************************/
+
+
+
+.g-img {
+
+width:   150;
+height:  100;
+margin:   20;
+
+border:  5px solid #6ca6cd;
+border-radius: 4px;
+
+-webkit-box-shadow:  0px 4px 10px 595959;
+box-shadow:          0px 4px 10px 595959;
+
+
+
+}
+
+
+
+
+.g-img:hover {   
+
+border:  5px solid d1d1d1;
+
+}
+
+
+
+
+
+table {
+
+display:  inline-block;
+
+}
+
+
+
+
+
+td p {
+
+font-size:         15;
+font-family:  Calibri;
+color:           gray;
+}
+
+
+
+
+
+td:hover p {   
+
+color:  d1d1d1;
+
+}
+
+
+
+
+/***********************                       GALLERY-NAVIARROWS                    ********************************/
+
+#naviarrows{position: relative;
+	top:50 ;}
+
+
+.arrl {
+
+height: 30;
+width:  30;
+left:  100;
+
+position:  relative;
+
+}
+
+
+
+
+
+.arrr {
+
+height:  30;
+width:   30;
+right:  100;
+
+position:  relative;
+
+}
+
+
+
+.gmap {
+border:  5px solid #ccc;
+border-radius: 4px;
+
+-webkit-box-shadow:  0px 4px 10px 595959;
+box-shadow:          0px 4px 10px 595959;
+}
+
+
+
+
+
